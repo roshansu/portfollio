@@ -28,7 +28,7 @@ const All = () => {
             desc: "Developed a campus connection app where students can connect with others within their campus and they can share opinion to others.",
             title:"StudIN",
             tech: ["MERN", "TailwindCss"],
-            live: "www.studin.in",
+            live: "https://studin.in",
             code: "https://github.com/roshansu",
         },
 
