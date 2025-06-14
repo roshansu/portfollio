@@ -45,8 +45,8 @@ const All = () => {
             desc: "Developed a personal portfollio website.",
             title:"Portfollio",
             tech: ["React.js", "TailwindCss"],
-            live: "https://complaintfor.netlify.app/",
-            code: "https://github.com/roshansu/complaint-form",
+            live: "https://roshanportfollio.netlify.app/",
+            code: "https://github.com/roshansu/portfollio",
         },
 {
             pic: todo,
