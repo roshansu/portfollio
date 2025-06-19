@@ -22,7 +22,7 @@ const About = () => {
     <div style={{background:"radial-gradient(circle,rgba(0, 0, 0, 0) 0%, rgba(1, 1, 1, 0.16) 100%)"}}
     className=' flex items-center justify-center flex-col gap-20 p-2 lg:p-32'>
         <div className='lg:px-12 px-6 w-fit lg:text-3xl text-xl font-bold lg:py-4 py-3 border-6 border-black'>About me</div>
-      <p className='text-[#050505] text-center '>
+      <p className='text-[#050505] text-start '>
         I am a Software developer, skilled in building full-stack web applications with React.js, Node.js, Express.js, and MongoDB.
         I have strong experience in front-end development with React and back-end development with Node.js and MongoDB.
         Along with web development, I have a good foundation in C, C++, Python, DBMS, MySQL, JavaScript, Data Structures and Algorithms (DSA), and Operating Systems (OS) concepts.
