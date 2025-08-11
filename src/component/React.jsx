@@ -5,10 +5,37 @@ import dsav from '../assets/sort.png'
 import comp from '../assets/comp.png'
 import Card from './Card'
 import port from '../assets/port.png'
+import ev from '../assets/ev.png'
+import ai from '../assets/ai.png'
 
 const Reactjs = () => {
 
     const data =[
+        
+        {
+            pic: ev,
+            desc: "A React and Redux-based frontend platform designed to explore and showcase events with an intuitive, responsive interface for a smooth user experience.",
+            title:"EventSphere",
+            tech: ["React.js"],
+            live: "https://eventsphere-three.vercel.app",
+            code: "https://github.com/roshansu/eventsphere",
+        },  
+         {
+            pic: ai,
+            desc: " A custom-built chatbot that answers questions about me, showcasing my skills, projects, and journey in a conversational and interactive way.",
+            title:"Personal Chatbot",
+            tech: ["React.js", "Gen Ai"],
+            live: "https://roshan-chatbot.vercel.app",
+            code: "https://github.com/roshansu/roshan-chatbot",
+        },  
+         {
+            pic: port,
+            desc: "Developed a personal portfollio website.",
+            title:"Portfollio",
+            tech: ["React.js", "TailwindCss"],
+            live: "https://complaintfor.netlify.app/",
+            code: "https://github.com/roshansu/complaint-form",
+        },      
         {
             pic: todo,
             desc: "Developed a simple todo app.",
@@ -41,14 +68,7 @@ const Reactjs = () => {
             live: "https://complaintfor.netlify.app/",
             code: "https://github.com/roshansu/complaint-form",
         },
-        {
-            pic: port,
-            desc: "Developed a personal portfollio website.",
-            title:"Portfollio",
-            tech: ["React.js", "TailwindCss"],
-            live: "https://complaintfor.netlify.app/",
-            code: "https://github.com/roshansu/complaint-form",
-        },
+       
     ]
 
   return (

@@ -16,6 +16,7 @@ import dsa from '../assets/dsa.png'
 import blck from '../assets/blck.svg'
 import c from '../assets/c.svg'
 import cpp from '../assets/cpp.svg'
+import bot from '../assets/bot.jpg'
 
 const About = () => {
   return (
@@ -81,6 +82,10 @@ const About = () => {
                     <div className=''>
                         <img className='lg:w-[100px] w-[70px] h-[55px] lg:h-[70px]' src={rct} alt="" />
                         <p className=' mt-2 '>REACT.JS</p>
+                    </div>
+                     <div className=''>
+                        <img className='lg:w-[100px] w-[70px] h-[55px] rounded-full object-cover lg:h-[70px]' src={bot} alt="" />
+                        <p className=' mt-2 '>Gen Ai</p>
                     </div>
                     <div className=''>
                         <img className='lg:w-[100px] w-[70px] h-[55px] lg:h-[70px]' src={git} alt="" />

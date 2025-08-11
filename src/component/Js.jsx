@@ -9,6 +9,30 @@ import Card from './Card'
 
 const Js = () => {
    const data = [
+    {
+            pic: note,
+            desc: "Developed a secure note keeper app where you can write your notes and you can secure notes by locking it.",
+            title:"NoteKeeper",
+            tech: ["HTML5", "CSS", "JavaScript", "firebase"],
+            live: "https://roshansu.github.io/noteKeeper/",
+            code: "https://github.com/roshansu/noteKeeper",
+        },
+    {
+            pic: draw,
+            title:"Drawing app",
+            desc: "Developed a drawing app with basic functionality where you can create shape like rectangle.",
+            tech: ["HTML5 Canvas", "TailwindCss", "JavaScript"],
+            live: "https://roshansu.github.io/DrawingApp/",
+            code: "https://github.com/roshansu/DrawingApp",
+        },
+        {
+            pic: expense,
+            desc: "Developed a expense tracker app where you can track your expense in multiple category and you can visualize it in bar chart.",
+            title:"Expense tracker",
+            tech: ["HTML5", "CSS", "JavaScript"],
+            live: "https://roshansu.github.io/ExpenseTracker/",
+            code: "https://github.com/roshansu/ExpenseTracker",
+        },
         {
             pic: timer,
             desc: "Developed a timer countdown website where you can see upcoming event's count down and you also create your count down.",
@@ -36,32 +60,6 @@ const Js = () => {
             code: "https://github.com/roshansu/Calculator",
         },
 
-        {
-            pic: draw,
-            title:"Drawing app",
-            desc: "Developed a drawing app with basic functionality where you can create shape like rectangle.",
-            tech: ["HTML5 Canvas", "TailwindCss", "JavaScript"],
-            live: "https://roshansu.github.io/DrawingApp/",
-            code: "https://github.com/roshansu/DrawingApp",
-        },
-
-        {
-            pic: note,
-            desc: "Developed a secure note keeper app where you can write your notes and you can secure notes by locking it.",
-            title:"NoteKeeper",
-            tech: ["HTML5", "CSS", "JavaScript", "firebase"],
-            live: "https://roshansu.github.io/noteKeeper/",
-            code: "https://github.com/roshansu/noteKeeper",
-        },
-
-        {
-            pic: expense,
-            desc: "Developed a expense tracker app where you can track your expense in multiple category and you can visualize it in bar chart.",
-            title:"Expense tracker",
-            tech: ["HTML5", "CSS", "JavaScript"],
-            live: "https://roshansu.github.io/ExpenseTracker/",
-            code: "https://github.com/roshansu/ExpenseTracker",
-        },
     ]
   return (
     <div className='flex flex-wrap justify-center gap-6'>

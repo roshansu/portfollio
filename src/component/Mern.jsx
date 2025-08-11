@@ -2,9 +2,18 @@ import React from 'react'
 import stud from '../assets/stud.png'
 import sydny from '../assets/sydny.png'
 import Card from './Card'
+import sh from '../assets/sh.png'
 
 const Mern = () => {
  const data = [
+        {
+          pic:sh,
+          desc:" A platform for Shobhit University CS students to connect with mentors, get AI-powered guidance, and grow through verified learning and networking opportunities.",
+          title:"ByteUP",
+          tech:["MERN", "TailwindCss", "Gen Ai"],
+          live:"www.byteup.online",
+          code:"https://github.com/roshansu"
+        },
         {
             pic: stud,
             desc: "Developed a campus connection app where students can connect with others within their campus and they can share opinion to others.",

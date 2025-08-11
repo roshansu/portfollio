@@ -18,12 +18,23 @@ import comp from '../assets/comp.png'
 import stud from '../assets/stud.png'
 import sydny from '../assets/sydny.png'
 import port from '../assets/port.png'
+import sh from '../assets/sh.png'
+import ai from '../assets/ai.png'
+import ev from '../assets/ev.png'
 
 
 const All = () => {
 
     const data = [
-{
+        {
+            pic:sh,
+            desc:" A platform for Shobhit University CS students to connect with mentors, get AI-powered guidance, and grow through verified learning and networking opportunities.",
+            title:"ByteUP",
+            tech:["MERN", "TailwindCss", "Gen Ai"],
+            live:"www.byteup.online",
+            code:"https://github.com/roshansu"
+        },
+        {
             pic: stud,
             desc: "Developed a campus connection app where students can connect with others within their campus and they can share opinion to others.",
             title:"StudIN",
@@ -40,7 +51,23 @@ const All = () => {
             live: "https://scrapper-iptq.onrender.com/",
             code: "https://github.com/roshansu/scrapper",
         },
- {
+{
+            pic: ev,
+            desc: "A React and Redux-based frontend platform designed to explore and showcase events with an intuitive, responsive interface for a smooth user experience.",
+            title:"EventSphere",
+            tech: ["React.js"],
+            live: "https://eventsphere-three.vercel.app",
+            code: "https://github.com/roshansu/eventsphere",
+        },  
+         {
+            pic: ai,
+            desc: " A custom-built chatbot that answers questions about me, showcasing my skills, projects, and journey in a conversational and interactive way.",
+            title:"Personal Chatbot",
+            tech: ["React.js", "Gen Ai"],
+            live: "https://roshan-chatbot.vercel.app",
+            code: "https://github.com/roshansu/roshan-chatbot",
+        },  
+        {
             pic: port,
             desc: "Developed a personal portfollio website.",
             title:"Portfollio",
@@ -48,7 +75,7 @@ const All = () => {
             live: "https://roshanportfollio.netlify.app/",
             code: "https://github.com/roshansu/portfollio",
         },
-{
+        {
             pic: todo,
             desc: "Developed a simple todo app.",
             title:"Todo app",
