@@ -31,7 +31,7 @@ const All = () => {
             desc:" A platform for Shobhit University CS students to connect with mentors, get AI-powered guidance, and grow through verified learning and networking opportunities.",
             title:"ByteUP",
             tech:["MERN", "TailwindCss", "Gen Ai"],
-            live:"www.byteup.online",
+            live:"https://www.byteup.online",
             code:"https://github.com/roshansu"
         },
         {
