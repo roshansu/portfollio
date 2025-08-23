@@ -21,11 +21,20 @@ import port from '../assets/port.png'
 import sh from '../assets/sh.png'
 import ai from '../assets/ai.png'
 import ev from '../assets/ev.png'
+import mai from '../assets/mai.png'
 
 
 const All = () => {
 
     const data = [
+         {
+            pic: mai,
+            title: "Hexa.ai – Multi-AI Chat Platform",
+            desc: "A MERN-based platform where users can interact with multiple AI models like ChatGPT, Gemini, and DeepSeek in one place. It offers individual or combined responses, separate chat windows, model toggling, and persistent chat history for a seamless experience.",
+            tech: ["MERN", "Gen Ai"],
+            live: "https://hexaai-wheat.vercel.app",
+            code: "https://github.com/roshansu/hexa-ai",
+        },
         {
             pic:sh,
             desc:" A platform for Shobhit University CS students to connect with mentors, get AI-powered guidance, and grow through verified learning and networking opportunities.",
@@ -107,7 +116,7 @@ const All = () => {
             live: "https://complaintfor.netlify.app/",
             code: "https://github.com/roshansu/complaint-form",
         },
- {
+        {
             pic: timer,
             desc: "Developed a timer countdown website where you can see upcoming event's count down and you also create your count down.",
             title:"Timer countdown",
@@ -160,7 +169,7 @@ const All = () => {
             live: "https://roshansu.github.io/ExpenseTracker/",
             code: "https://github.com/roshansu/ExpenseTracker",
         },
-{
+        {
             pic: cdr,
             desc: "Replicated the website of Coder Army (desktop view only)",
             tech: ["HTML5", "CSS"],

@@ -5,6 +5,7 @@ import Html from './Html'
 import Js from './Js'
 import Mern from './Mern'
 import Reactjs from './React'
+import Genai from './Genai'
 
 const Project = () => {
     const [type, setType] = useState('all')
@@ -20,6 +21,7 @@ const Project = () => {
         <button onClick={()=>setType('js')} className={`${type==='js'?' border-white':' border-black'} pb-2 border-b-2 `}>JAVASCRIPT</button>
         <button onClick={()=>setType('react')} className={`${type==='react'?' border-white':' border-black'} pb-2 border-b-2 `}>REACT.JS</button>
         <button onClick={()=>setType('mern')} className={`${type==='mern'?' border-white':' border-black'} pb-2 border-b-2 `}>MERN</button>
+        <button onClick={()=>setType('genai')} className={`${type==='genai'?' border-white':' border-black'} pb-2 border-b-2 `}>Gen Ai</button>
       </div>
       <div className='mt-8 p-4 '>
         {
@@ -36,6 +38,9 @@ const Project = () => {
         }
         {
             type==='mern'?<Mern/>:''
+        }
+        {
+            type==='genai'?<Genai/>:''
         }
       </div>
     </div>

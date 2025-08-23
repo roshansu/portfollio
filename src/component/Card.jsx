@@ -3,7 +3,7 @@ import Tech from './Tech'
 
 const Card = ({desc, pic, tech, live, code, title}) => {
   return (
-      <div  className='p-2 lg:w-[30%]  transition-all duration-200 hover:scale-105 cursor-pointer bg-gray-200 border rounded-md border-gray-400 shadow-sm '>
+      <div  className='p-2 lg:w-[30%] h-fit  transition-all duration-200 hover:scale-105 cursor-pointer bg-gray-200 border rounded-md border-gray-400 shadow-sm '>
         <img className='rounded-tr-md rounded-tl-md w-full h-[300px] object-cover border border-gray-300' src={pic} alt="" />
         <div className='flex flex-wrap items-center mt-2 gap-3'>
             {

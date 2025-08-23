@@ -7,6 +7,14 @@ import sh from '../assets/sh.png'
 const Mern = () => {
  const data = [
         {
+          pic: mai,
+          title: "Hexa.ai – Multi-AI Chat Platform",
+          desc: "A MERN-based platform where users can interact with multiple AI models like ChatGPT, Gemini, and DeepSeek in one place. It offers individual or combined responses, separate chat windows, model toggling, and persistent chat history for a seamless experience.",
+          tech: ["MERN", "Gen Ai"],
+          live: "https://hexaai-wheat.vercel.app",
+          code: "https://github.com/roshansu/hexa-ai",
+        },
+        {
           pic:sh,
           desc:" A platform for Shobhit University CS students to connect with mentors, get AI-powered guidance, and grow through verified learning and networking opportunities.",
           title:"ByteUP",
@@ -19,7 +27,7 @@ const Mern = () => {
             desc: "Developed a campus connection app where students can connect with others within their campus and they can share opinion to others.",
             title:"StudIN",
             tech: ["MERN", "TailwindCss"],
-            live: "www.studin.in",
+            live: "https://www.studin.in",
             code: "https://github.com/roshansu",
         },
 
