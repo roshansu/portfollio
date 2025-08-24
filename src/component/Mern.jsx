@@ -3,6 +3,8 @@ import stud from '../assets/stud.png'
 import sydny from '../assets/sydny.png'
 import Card from './Card'
 import sh from '../assets/sh.png'
+import mai from '../assets/mai.png'
+
 
 const Mern = () => {
  const data = [
