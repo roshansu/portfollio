@@ -14,7 +14,7 @@ const Js = () => {
             desc: "Developed a secure note keeper app where you can write your notes and you can secure notes by locking it.",
             title:"NoteKeeper",
             tech: ["HTML5", "CSS", "JavaScript", "firebase"],
-            live: "https://roshansu.github.io/noteKeeper/",
+            live: "https://notekeeperz.netlify.app/",
             code: "https://github.com/roshansu/noteKeeper",
         },
     {

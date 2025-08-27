@@ -157,7 +157,7 @@ const All = () => {
             desc: "Developed a secure note keeper app where you can write your notes and you can secure notes by locking it.",
             title:"NoteKeeper",
             tech: ["HTML5", "CSS", "JavaScript", "firebase"],
-            live: "https://roshansu.github.io/noteKeeper/",
+            live: "https://notekeeperz.netlify.app/",
             code: "https://github.com/roshansu/noteKeeper",
         },
 
@@ -192,7 +192,7 @@ const All = () => {
             desc: "Replicated the homepage of Linkedin (desktop view only)",
             title:"Linkedin clone",
             tech: ["HTML5", "CSS"],
-            live: "https://roshansu.github.io/linkedin-replicate/",
+            live: "https://roshansu.github.io/linkedIn-replicate/",
             code: "https://github.com/roshansu/linkedin-replicate",
         },
 
