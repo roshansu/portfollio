@@ -83,6 +83,14 @@ const About = () => {
                         <img className='lg:w-[100px] w-[70px] h-[55px] lg:h-[70px]' src={rct} alt="" />
                         <p className=' mt-2 '>REACT.JS</p>
                     </div>
+                    <div className=''>
+                        <img className='lg:w-[100px] w-[70px] h-[55px] lg:h-[70px]' src={node} alt="" />
+                        <p className='mt-2'>NODE.JS</p>
+                    </div>
+                    <div className=''>
+                        <img className='lg:w-[100px] w-[70px] h-[55px] lg:h-[70px]' src={mongo} alt="" />
+                        <p className='mt-2 '>MONGODB</p>
+                    </div>
                      <div className=''>
                         <img className='lg:w-[100px] w-[70px] h-[55px] rounded-full object-cover lg:h-[70px]' src={bot} alt="" />
                         <p className=' mt-2 '>Gen Ai</p>
@@ -94,23 +102,16 @@ const About = () => {
                 </div>
             </div>
 
-             <div className='lg:mt-12 mt-6'>
+             {/* <div className='lg:mt-12 mt-6'>
                 <p className='lg:text-3xl text-xl lg:mb-8 mb-4 font-bold'>LEARNING</p>
                 <div className='flex justify-center lg:gap-20 gap-6 lg:text-lg text-center flex-wrap'>
-                    <div className=''>
-                        <img className='lg:w-[100px] w-[70px] h-[55px] lg:h-[70px]' src={node} alt="" />
-                        <p className='mt-2'>NODE.JS</p>
-                    </div>
-                    <div className=''>
-                        <img className='lg:w-[100px] w-[70px] h-[55px] lg:h-[70px]' src={mongo} alt="" />
-                        <p className='mt-2 '>MONGODB</p>
-                    </div>
+                    
                     <div className=''>
                         <img className='lg:w-[100px] w-[70px] h-[55px] lg:h-[70px]' src={blck} alt="" />
                         <p className=' mt-2'>BLOCKCHAIN</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
              <div className='lg:mt-12 mt-6'>
                 <p className='lg:text-3xl text-xl lg:mb-8 mb-4 font-bold'>OTHER SKILLS</p>
