@@ -22,11 +22,20 @@ import sh from '../assets/sh.png'
 import ai from '../assets/ai.png'
 import ev from '../assets/ev.png'
 import mai from '../assets/mai.png'
+import crime from '../assets/crime.png'
 
 
 const All = () => {
 
     const data = [
+                  {
+                  pic: crime,
+                  title: "CrimeAlert – Anonymous Crime Reporting Platform",
+                  desc: `A MERN stack platform that lets users report crimes anonymously using token-based login, featuring post, comment, and report validation with an admin panel for verification — promoting fearless and transparent reporting.`,
+                  tech: ["MERN"],
+                  live: "https://crime-reports.vercel.app",
+                  code: "https://github.com/roshansu",
+                },
          {
             pic: mai,
             title: "Hexa.ai – Multi-AI Chat Platform",
