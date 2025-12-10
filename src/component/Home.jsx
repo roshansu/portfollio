@@ -24,7 +24,7 @@ const Home = () => {
                 </a>
             </div>
 
-            <a className='px-6 py-3 bg-white text-black mt-6 font-bold border transition duration-200 hover:scale-105 text-lg rounded-md shadow-md ' href="https://docs.google.com/document/d/158LxN1nDMT9BnLSTPGBFpSl8x2dXltQ2/edit?tab=t.0" target='_blank'>View resume</a>
+            <a className='px-6 py-3 bg-white text-black mt-6 font-bold border transition duration-200 hover:scale-105 text-lg rounded-md shadow-md ' href="https://docs.google.com/document/d/1nyIVvtQV0kcJS2tNLFLd5Ubm3euZFveC/edit" target='_blank'>View resume</a>
       </div>
 
       <div className='w-[50%] hidden h-screen lg:flex items-center justify-center p-8 bg-[#D7D7D7]'>
