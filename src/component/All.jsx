@@ -23,6 +23,7 @@ import ai from '../assets/ai.png'
 import ev from '../assets/ev.png'
 import mai from '../assets/mai.png'
 import crime from '../assets/crime.png'
+import cash from '../assets/cash.png'
 
 
 const All = () => {
@@ -116,6 +117,14 @@ const All = () => {
             tech: ["React.js"],
             live: "https://githubprofil.netlify.app/",
             code: "https://github.com/roshansu/githubProfile",
+        },
+         {
+            pic: cash,
+            desc: "Track expenses month-wise, visualize cash flow with charts, and export detailed financial reports as PDFs for easy analysis.",
+            title:"Cashflow",
+            tech: ["HTML5", "CSS", "JavaScript", "Chartjs", "Pdfjs"],
+            live: "https://cashflowtracke.netlify.app/",
+            code: "https://github.com/roshansu/cash-flow-salary-and-expanse-tracker",
         },
          {
             pic: comp,

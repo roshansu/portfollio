@@ -6,10 +6,19 @@ import draw from '../assets/draw.png'
 import expense from '../assets/expense.png'
 import note from '../assets/note.png'
 import Card from './Card'
-
+import cash from '../assets/cash.png'
+// Track expenses month-wise, visualize cash flow with charts, and export detailed financial reports as PDFs for easy analysis.
 const Js = () => {
    const data = [
-    {
+        {
+            pic: cash,
+            desc: "Track expenses month-wise, visualize cash flow with charts, and export detailed financial reports as PDFs for easy analysis.",
+            title:"Cashflow",
+            tech: ["HTML5", "CSS", "JavaScript", "Chartjs", "Pdfjs"],
+            live: "https://cashflowtracke.netlify.app/",
+            code: "https://github.com/roshansu/cash-flow-salary-and-expanse-tracker",
+        },
+        {
             pic: note,
             desc: "Developed a secure note keeper app where you can write your notes and you can secure notes by locking it.",
             title:"NoteKeeper",
