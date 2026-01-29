@@ -7,9 +7,18 @@ import expense from '../assets/expense.png'
 import note from '../assets/note.png'
 import Card from './Card'
 import cash from '../assets/cash.png'
+import gitdev from '../assets/gitdev.png'
 // Track expenses month-wise, visualize cash flow with charts, and export detailed financial reports as PDFs for easy analysis.
 const Js = () => {
    const data = [
+        {
+            pic: gitdev,
+            desc: "A web-based application that lets users search GitHub profiles, view key stats, explore repositories, and compare two users in battle mode.",
+            title:"gitDev",
+            tech: ["HTML5", "CSS", "JavaScript"],
+            live: "https://gitdevv.netlify.app/",
+            code: "https://github.com/roshansu/git-dev-w3",
+        },
         {
             pic: cash,
             desc: "Track expenses month-wise, visualize cash flow with charts, and export detailed financial reports as PDFs for easy analysis.",

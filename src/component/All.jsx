@@ -24,6 +24,7 @@ import ev from '../assets/ev.png'
 import mai from '../assets/mai.png'
 import crime from '../assets/crime.png'
 import cash from '../assets/cash.png'
+import gitdev from '../assets/gitDev.png'
 
 
 const All = () => {
@@ -117,6 +118,14 @@ const All = () => {
             tech: ["React.js"],
             live: "https://githubprofil.netlify.app/",
             code: "https://github.com/roshansu/githubProfile",
+        },
+        {
+            pic: gitdev,
+            desc: "A web-based application that lets users search GitHub profiles, view key stats, explore repositories, and compare two users in battle mode.",
+            title:"gitDev",
+            tech: ["HTML5", "CSS", "JavaScript"],
+            live: "https://gitdevv.netlify.app/",
+            code: "https://github.com/roshansu/git-dev-w3",
         },
          {
             pic: cash,
