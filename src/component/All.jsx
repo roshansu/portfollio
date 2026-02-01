@@ -24,7 +24,7 @@ import ev from '../assets/ev.png'
 import mai from '../assets/mai.png'
 import crime from '../assets/crime.png'
 import cash from '../assets/cash.png'
-import gitdev from '../assets/gitDev.png'
+import gitdev from '../assets/gitdev.png'
 
 
 const All = () => {
