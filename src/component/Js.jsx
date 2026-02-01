@@ -8,7 +8,7 @@ import note from '../assets/note.png'
 import Card from './Card'
 import cash from '../assets/cash.png'
 import gitdev from '../assets/gitdev.png'
-// Track expenses month-wise, visualize cash flow with charts, and export detailed financial reports as PDFs for easy analysis.
+// Track expenses month-wise, vbisualize cash flow with charts, and export detailed financial reports as PDFs for easy analysis.
 const Js = () => {
    const data = [
         {
